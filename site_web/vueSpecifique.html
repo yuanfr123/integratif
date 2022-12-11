@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XProduct - Vue spécifique</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/thematique_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navig">
+        <div class="wrapper">
+            <div class="logo1">
+                <img src="imgs/logoXP.png" alt="logo">
+            </div>
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="vueGenerale.html">Vues générales</a>
+                <a href="#">Vue spécifique</a>
+                <a href="aPropos.html">A propos</a>
+            </nav>
+        </div>
+    </div>
+
+    <header class="th">
+        <h1><span class="main_title">Vue spécifique des exportations (par pays)</span></h1>
+        <div>
+            <p class="main_description">
+                Dans cette page, nous aurons la possibilité de comparer les exportations par pays. Le but étant d'avoir
+                un apperçu de l'évolution d'un même produit exporté pour deux pays différents.
+            </p>
+        </div>
+    </header>
+
+    <div class="content-area">
+        <div class="container-fluid">
+            <div class="indicateur1">
+                <h1>Comparaison des exportations entre pays</h1>
+                <div>
+                    <select class="form-select disciplines" id="listPays_th2_id1">
+                        <option value="Chine">Chine</option>
+                        <option value="USA">Etats-Unis</option>
+                        <option value="Russie">Russie</option>
+                        <option value="RU">Royaume-Uni</option>
+                        <option value="Allemagne">Allemagne</option>
+                        <option value="France">France</option>
+                        <option value="Bresil">Brésil</option>
+                        <option value="Australie">Australie</option>
+                    </select>
+                    <select class="form-select disciplines" id="listPays_th2_id1">
+                        <option value="Chine">Chine</option>
+                        <option value="USA">Etats-Unis</option>
+                        <option value="Russie">Russie</option>
+                        <option value="RU">Royaume-Uni</option>
+                        <option value="Allemagne">Allemagne</option>
+                        <option value="France">France</option>
+                        <option value="Bresil">Brésil</option>
+                        <option value="Australie">Australie</option>
+                    </select>
+                    <select class="form-select" id="listProduit_th2_id1">
+                        <option value="hdc">Hydrocarbures</option>
+                        <option value="pm">Produits manufacturés</option>
+                        <option value="pa">Produits alimentaires (agricoles)</option>
+                        <option value="equip">Machineries et équipements de transport</option>
+                        <option value="mine">Minéraux et métaux</option>
+                        <option value="pap">Produits alimentaires (procéssés)</option>
+                    </select>
+                    <select class="form-select" id="listEvenement_th2_id1">
+                        <option value="">Brexit</option>
+                        <option value="">Prtotectionnisme USA (sous Trump)</option>
+                        <option value="">Covid-19</option>
+                        <option value="">Politique unilatérale USA</option>
+                        <option value="">Surcharge de l'argent USA (actuellement)</option>
+                    </select>
+                    <input type="button" class="btn" value="Afficher">
+                </div>
+                <table class="table table-bordered table-responsive">
+                    <thead>
+                        <tr id="annees_th2_id1">
+                            <th colspan="5">Exportations en milliers de $</th>
+                        </tr>
+                        <th>Années</th>
+                        <td>2012</td>
+                        <td>2013</td>
+                        <td>2014</td>
+                        <td>2015</td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Pays 1</th>
+                            <td>40,543324</td>
+                            <td>35,679354</td>
+                            <td>50,158267</td>
+                            <td>38,717999</td>
+                        </tr>
+                        <tr>
+                            <th>Pays 2</th>
+                            <td>38,717999</td>
+                            <td>50,158267</td>
+                            <td>35,679354</td>
+                            <td>40,543324</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <div id="Graph_th2_id1" class="graphique">
+                    <img src="imgs/graphExample_PI.png" alt="graph">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <section>
+            <a href="APropos.html">A propos</a>
+            <a href="mentionsLegales.html">Mentions légales</a>
+        </section>
+        <p>© Moli Marc © Kpatcha Marc © Yuan Yujie © Yin Xiao Yan © Nouar Abdel 2022-2023</p>
+    </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> -->
+</body>
+</html>

@@ -1,0 +1,134 @@
+html {
+  position: relative;
+}
+
+.content-area {
+  background-color: #f0eee9;
+  opacity: 1;
+  background-image: radial-gradient(#6667AB 0.5px, #f0eee9 0.5px);
+  background-size: 10px 10px;
+  margin-left: 50px;
+  margin-right: 35px;
+}
+
+.content-area .indicateur1 {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.content-area .indicateur1 select {
+  border: 3px solid #f56f3a;
+  margin: 30px;
+  width: 400px;
+}
+
+.content-area .indicateur1 input.btn {
+  border: 3px solid #f56f3a;
+  color: #615c61;
+  background: #fff;
+  margin: 20px;
+  transition: 0.5s;
+}
+
+.content-area .indicateur1 input.btn:hover {
+  background: #f56f3a;
+  color: #f0eee9;
+}
+
+.content-area .indicateur1 table {
+  border: 2px solid #222;
+  margin: 20px;
+  width: 20px;
+}
+
+header.th {
+  padding: 20px;
+  background-color: #dbd5d1;
+  /* height: 60vh; */
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 30px;
+  text-align: left;
+  border: #f56f3a solid 3px; 
+  padding-bottom: 10px;
+  background-image: radial-gradient(#6667AB 0.5px, #f0eee9 0.5px);
+  background-size: 10px 10px;
+  box-shadow: 2px 2px 5px rgb(92, 66, 66);
+  border-radius: 10px;
+}
+
+header.th h1 {
+  color: #f56f3a;
+  text-align: center;
+  padding: 10vh;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+header.th div p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.content-area {
+  margin-top: 30px;
+}
+
+h1{
+  text-align: center;
+}
+
+.graphique img {
+width: 600px;
+}
+
+
+@media(max-width: 700px) {
+
+  header.th {
+      padding: 20px;
+      background-color: #dbd5d1;
+      height: 70vh;
+      text-align: center;
+      box-shadow: 2px 2px 5px rgb(92, 66, 66);   
+  }
+  
+  header.th h1 {
+      color: #6667AB;
+      text-align: center;
+      padding: 10vh;
+      font-size: 40px;
+  }
+  
+  header.th h1 span{
+      border-bottom: 5px solid #dbd5d1;
+  }
+  
+  header.th div p {
+      font-size: 1em;
+      font-weight: bold;
+      color: #222;
+  }
+
+  .content-area {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .content-area .indicateur1 select{
+    width: 400px;
+  }
+
+  .content-area .indicateur1 table {
+    display: none;
+  }
+
+  .graphique img {
+    width: 400px;
+    }
+}

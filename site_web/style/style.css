@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #f0eee9;
+}
+
+.navig {
+    width: 100%;
+    overflow: hidden;
+    background: #252932;
+    margin-bottom: 20px;
+    top: 0;
+    position: sticky;
+    height: 100px;
+    z-index: 1;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.navig .logo1 {
+    color: #f2f2f2;
+    font-size: 50px;
+    line-height: 100px;
+    float: left;
+}
+
+.navig .logo1 img {
+    width: 120px;
+}
+
+.navig nav {
+    float: right;
+    line-height: 100px;
+}
+
+.navig nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.navig nav a:hover {
+    background: #f56f3a;
+    border-radius: 50px;
+}
+
+.navig2 {
+    position: fixed;
+    height: 100px;
+}
+
+.navig2 .logo1 {
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.navig2 nav {
+    line-height: 100px;
+}
+
+header.acc {
+    padding: 20px;
+    /* height: 85vh; */
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 30px;
+    text-align: left;
+    box-shadow: 2px 2px 5px rgb(92, 66, 66);
+    background-image: url(../imgs/export2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+header.acc h1 {
+    text-align: center;
+    padding: 10vh;
+    font-size: 3em;
+}
+
+header.acc h1 span{
+    border-bottom: 5px solid;
+}
+
+header.acc div p {
+    font-size: 20px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+header.acc div p span {
+    font-weight: bolder;
+}
+
+a.button1:hover {
+color:#6667AB;
+background-color:#FFFFFF;
+}
+
+.content-area {
+    /* margin-left: 70px; */
+    padding: 20px;
+}
+
+.content-area  p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.text-content h1 {
+    text-align: center;
+}
+
+.content-area p span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #252932;
+    padding: 3rem;
+    color: #fff;
+    left: 70px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer section {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+footer a {
+    padding: 10px;
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f56f3a;
+}
+
+@media(max-width: 875px) {
+
+    .navig nav {
+        float: none;
+        line-height: 100px;
+    }
+    
+    .navig nav a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        line-height: normal;
+        font-size: 13px;
+        font-weight: bold;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .navig.active2 {
+        left: 0;
+        width: 70px;
+        height: 100vh;
+        z-index: 3;
+    }
+}
+
+#technologies{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    padding: 10px;
+}
